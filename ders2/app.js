@@ -53,6 +53,20 @@
 
 // const SPEED_LİMİT =120; 
 
+// var a = 10;
+// {
+//     let b=3; // Uncaught ReferenceError: b is not defined hata verdi
+// }
+// console.log(a);
+// console.log(b);
+
+var a = 10;
+{
+    let b=3;
+    console.log(b); // bu şekilde yazdığımızda sıkıntı olmuyor.
+
+}
+console.log(a);
 
 
 
