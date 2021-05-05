@@ -14,7 +14,19 @@
 // çift ve tek tırnak sorun yapmıyor ama eslin tek tırnak öneriyor.
 
 // document.body.innerHTML = "Let's start coding!";
-document.body.innerHTML = 'Let\'s start coding!';
+// document.body.innerHTML = 'Let\'s start coding!';
+
+// mdn lavascript javascriptin merkezi faydalı bir site belli keywords leri kullanmıyoruz
+// keywordlerin belli anlamı var. Vscode bu kelimeleri yazdığımızda rengi değişiyor.
+//değişken isimleri--keywrdsler kullanılmaz
+// değişken isimleri--karakter ve rakamlardan oluşabilir fakat rakamla başlayamaz.
+// değişken isimleri--özel sembollerden sadece alt çizgi ve dolar işaretin kullanıyoruz
+// değişken isimleri--değişken iismleri farklı olacak
+//değişken isimleri -- boşluk olmayacak, emoji kullanılamaz
+// türkçe karakter kullanılabilir, fakat ingilizce koymaya çalışalım.
+
+var ali; // olur
+var 1a; //rakamla başlayamaz
 
 
 
