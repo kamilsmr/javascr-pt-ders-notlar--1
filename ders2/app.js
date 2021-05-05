@@ -35,3 +35,46 @@
 
 // 4ahmet, your name, they-surname bu ifadeler yanlış değişkenler için
 // first_7, value9a, $ahmet bu ifadeler doğrudur. _ ve $ başta kullanabiliriz.
+
+// var for; // hata veriyor Uncaught SyntaxError: Unexpected token 'for'
+// for un sadece tek başına kullanılmasına izin vermiyor. örnek forinstance örnek veriyor.
+
+// var aliMehmetSelim =9; //camelcase
+
+// var a = 'ali-mehmet-selim-aasd-asdasd' // kebab case
+// var b = 'ali_mehmet_selim_erdo_asd'// snake case
+
+// class Validation // Uppercamel case veya pascal case sınıfları oluştururken büyük harfle başlıyoruz.
+
+// class Validation {
+//     SCREAMİNG_SNAKE_CASE // bu kullanım değiştirmeyi düşünmediğiiz değişkenlerde kullanıyoruz.
+
+// }
+
+// const SPEED_LİMİT =120; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
