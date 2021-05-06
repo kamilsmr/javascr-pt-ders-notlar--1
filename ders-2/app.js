@@ -94,8 +94,77 @@
 // console.log(a);
 // let a; // hata veriyor çünkü sonradan tanımlama yok let de
 
+// let a;
+// console.log(a);
+// a=3; // execution kısmında. hata veriyor.Undefined
+
+// const x = 5;
+// console.log(x); // hata veriyor const değişmez 2. değer atayamıyoruz.
+// x=7;
+// console.log(x);
+
+// let x = 5;
+// console.log(x);
+// let x=7; // aynı şey ikinci kez tanımlanırsa hata veriyor sadece x yazsak sorun yok
+// console.log(x);
 
 
+// var x = 5;
+// console.log(x);
+// var x=7; // varda iki kez tanımlayabiliyoruz.
+// console.log(x);
+
+// const x; // eğer const x= 7; dersek sorun yok.
+// x = 7; // hata veriyor cunku değişken aynı anda tanımlanır.
+// console.log(x);
+
+// function func1() {
+//     if(true) {
+//         var c = 55;
+//         let d = 4;
+//         console.log(c);
+//         console.log(d); // sadece c yazılıyor
+
+//     }
+//         console.log(c);
+//         console.log(d);
+
+
+// }
+// func1();
+
+
+// function func1() {
+//     if(true) {
+//         const c = 55;
+//         let d = 4;
+//         console.log(c);
+//         console.log(d); // let ve const çevrim dışına çıkamıyor.
+
+//     }
+//         console.log(c);
+//         console.log(d);
+
+
+// }
+// func1();
+
+// var a = 5;
+// console.log(typeof a);
+// a = '5';
+// console.log(typeof a);
+
+// var a = 5.15 ;
+// console.log(typeof a); // noktalı olsada number diye geçiyor.
+
+var a= 'Merhaba';
+console.log(typeof a);
+
+var b = "selam";
+var name1 = 'mark';
+var t = 'merhaba dunya';
+ console.log(`merhaba ${name1}`);
+ console.log(`2+3=${2+3}`);
 
 
 
