@@ -179,14 +179,40 @@
 // console.log(x);
 // console.log(y); // yuvarladı
 
+// console.log(Boolean('')); // false
+// console.log(Boolean(' ')); // true
+// console.log(Boolean(15>8)); // true
 
+// var x = 8 <4 ;
+// console.log(x); // false
 
+// x = null; // değeri bilinmiyor. 
+// console.log(typeof x); // object döndü
 
+// var x;
+// console.log(typeof x); // undefined
+// console.log(Boolean(x));  // undefine boolean da false çıktı
 
+// var x = Boolean ("hi everybody."); 
+// var y = Boolean (5);
+// var z = Boolean (-5);
+// var t = Boolean ("false");
+// var s = Boolean (3.14 + 8);
+// console.log("x: "+ x);
+// console.log("y: "+ y);
+// console.log("z: "+ z);
+// console.log("t: "+ t);
+// console.log("s: "+ s);
 
+// console.log(typeof NaN); // NUMBER
 
+// console.log(Boolean(null));
+// console.log(Boolean(-0));
 
-
+// console.log(typeof 0);
+// console.log(typeof '2');
+// console.log(typeof "merhaba");
+// console.log(typeof null);
 
 
 
