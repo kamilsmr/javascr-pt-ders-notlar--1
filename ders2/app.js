@@ -60,13 +60,39 @@
 // console.log(a);
 // console.log(b);
 
-var a = 10;
-{
-    let b=3;
-    console.log(b); // bu şekilde yazdığımızda sıkıntı olmuyor.
+// var a = 10;
+// {
+//     let b=3;
+//     console.log(b); // bu şekilde yazdığımızda sıkıntı olmuyor.
 
-}
-console.log(a);
+// }
+// console.log(a);
+
+// let sadece skope içinde çalışır dışarıdan erişilemez. 
+//Fakat var çalışır. Ama neden istenmiyor çünkü ramde devamlı hafızayı işgal ediyor.
+// memorye yüklenmemek için s6 ile let ve const geldi.
+
+// yol();
+// functıon yol() {
+//     if (true) {
+//         var c= 55;
+//         let d=4;
+//         console.log(c);
+//         console.log(d);
+
+//     }
+//     console.log(c);
+//     console.log(d);
+// }
+
+
+// a=3;
+// console.log(a);
+// var a; // var ile sonda dahi tanımlansa çalışıyor. hostin varı algılıyor.
+
+// a=3;
+// console.log(a);
+// let a; // hata veriyor çünkü sonradan tanımlama yok let de
 
 
 
