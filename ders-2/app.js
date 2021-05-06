@@ -157,21 +157,27 @@
 // var a = 5.15 ;
 // console.log(typeof a); // noktalı olsada number diye geçiyor.
 
-var a= 'Merhaba';
-console.log(typeof a);
+// var a= 'Merhaba';
+// console.log(typeof a);
 
-var b = "selam";
-var name1 = 'mark';
-var t = 'merhaba dunya';
- console.log(`merhaba ${name1}`);
- console.log(`2+3=${2+3}`);
+// var b = "selam";
+// var name1 = 'mark';
+// var t = 'merhaba dunya';
+//  console.log(`merhaba ${name1}`);
+//  console.log(`2+3=${2+3}`);
 
+// console.log(0.1+0.2);
 
+// consola window.location = `https://${0.1+0.2}.com`; // sayı sistemi ile alaklı bir sorun olduğu ve bu konu.
 
+// console.log((0.1+0.2).toFixed(1)); // yaptığımızda sorun çözülüyor. virgülden sonra 1 tane aldık
 
+//15 satıra kadar doğruluğu kabul ediyor ama 16 sayı olursa bir üste yuvarlıyor
 
-
-
+// var x = 999999999999999;
+// var y = 9999999999999999;
+// console.log(x);
+// console.log(y); // yuvarladı
 
 
 
