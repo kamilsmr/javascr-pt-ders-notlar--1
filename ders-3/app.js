@@ -118,7 +118,31 @@
 // console.log(x);
 // console.log(y);
  
+// ! arithmetic ops
+// var num1 = 9;
+// var num2 = 2;
+// var result;
 
+// result = num1 + num2;
+// result = num1 - num2;
+// result = num1 * num2;
+// result = num1 / num2;
+// result = num1 % num2;
+// num1++;
+// ++num2;
+// console.log(-num2);
+// console.log(num2 ** 3);
+// result = 0;
+// result += num1;
+// result -= num2;
+// result *= num1;
+// result /= num2;
+// result %= num2;
+// result **= num2;
+// x+y =z x ve y operands z ise result + ve = ise operators
+
+// 9<8<7 true
+// false<6 true cunku false 0 olarak kabul ediyor
 
 
 
