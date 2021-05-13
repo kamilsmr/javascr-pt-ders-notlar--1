@@ -158,7 +158,82 @@
 // console.log(calcFactorial);
 // console.log(`${factNumber}!= ${calcFactorial}`);
 
+// console.log(`${factNumber}! = ${calcFactorial}`);
 
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(`${i} FizzBuzz`);
+//   } else if (i % 3 === 0) {
+//     console.log(`${i} Fizz`);
+//   } else if (i % 5 === 0) {
+//     console.log(`${i} Buzz`);
+//   } else {
+//     console.log(`${i}`);
+//   }
+// }
+
+// const x = 5;
+// if (x % 2 === 0) {
+//   console.log(`${x} is an even number.`);
+// } else {
+//   console.log(`${x} is an odd number.`);
+// }
+
+// console.log(`${x} is an ${(x % 2 === 0 && 'even') || 'odd'} number`);
+
+// for (let i = 1; i <= 100; i++) {
+//   console.log(
+//     `${i} ${(i % 3 === 0 && 'Fizz') || ''}${(i % 5 === 0 && 'Buzz') || ''}`
+//   );
+// }
+
+
+// const text = 'Clarusway';
+// const char = 'a';
+// for (let i = 0; i < text.length; i++) {
+//   if (char === text[i]) {
+//     console.log(`${char} is at index ${i}`);
+//     break;
+//   }
+// }
+
+
+// let x = Math.trunc(Math.random() * 20) + 1;
+// console.log(x);
+
+
+
+
+// let randomNumber = 0;
+// let counter = 0;
+// while (randomNumber !== 6) {
+//   randomNumber = Math.trunc(Math.random() * 6) + 1;
+//   console.log(`Random Number is ${randomNumber}`);
+//   if (randomNumber === 6) {
+//     console.log('Here comes 6, exiting...');
+//     continue;
+//   }
+//   if (randomNumber === 3) counter++;
+//   if (counter > 2) {
+//     console.log('Number 3 occured 3 times exiting ...');
+//     break;
+//   }
+// }
+
+
+
+
+
+
+// const age = 15;
+// console.log(age >= 18 ? 'Wellcome' : 'You are not allowed');
+
+
+
+
+
+// const age = '18';
+// if (age === 18) console.log('You are allowed');
 
 
 
