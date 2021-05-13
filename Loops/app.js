@@ -136,11 +136,27 @@
 // console.log(number);
 // console.log(sum);
 
+// const factNumber = 5;
+// let calcFactorial = 1;
+// for (let i = factNumber; i>0;i--) calcFactorial *=i;
+// console.log(calcFactorial);
 
+// const factNumber = Number(prompt('Enter a number!'))
+// let calcFactorial = 1;
+// for (let i = factNumber; i>0;i--) calcFactorial *=i;
+// console.log(calcFactorial);
 
+// let factNumber ;
+// let calcFactorial=1;
+// let message ='Enter a number';
+// while(true){
+//     factNumber = Number(prompt(message))
+//     if (Number.isInteger(factNumber) && factNumber >0) break;
+// }
 
-
-
+// for (let i=factNumber; i>0; i--) calcFactorial *=i;
+// console.log(calcFactorial);
+// console.log(`${factNumber}!= ${calcFactorial}`);
 
 
 
